@@ -1,9 +1,7 @@
 package com.knight.domain.dos;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableField;
-import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableName;
+import com.baomidou.mybatisplus.annotation.*;
+
 import java.util.Date;
 import lombok.Data;
 
@@ -42,25 +40,25 @@ public class User {
     /**
      * 创建人
      */
-    @TableField(value = "creator")
+    @TableField(value = "creator", fill = FieldFill.INSERT)
     private Integer creator;
 
     /**
      * 创建时间
      */
-    @TableField(value = "create_time")
+    @TableField(value = "create_time", fill = FieldFill.INSERT)
     private Date createTime;
 
     /**
      * 修改人
      */
-    @TableField(value = "modifier")
+    @TableField(value = "modifier", fill = FieldFill.INSERT_UPDATE)
     private Integer modifier;
 
     /**
      * 修改时间
      */
-    @TableField(value = "modify_time")
+    @TableField(value = "modify_time", fill = FieldFill.INSERT_UPDATE)
     private Date modifyTime;
 
     public static final String COL_ID = "id";

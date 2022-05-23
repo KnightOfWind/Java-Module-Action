@@ -4,6 +4,7 @@
  */
 module Java.Module.Action {
     opens com.knight;
+    opens com.knight.config;
     opens com.knight.ui.http;
     opens com.knight.ui.http.convert;
     opens com.knight.ui.http.dto;
@@ -32,4 +33,6 @@ module Java.Module.Action {
 
     requires lombok;
     requires hutool.all;
+    requires org.mapstruct;
+    requires org.slf4j;
 }

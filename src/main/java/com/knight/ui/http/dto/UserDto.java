@@ -13,5 +13,5 @@ public class UserDto {
 
     private Byte gender;
 
-    private String birthday;
+    private String birthDay;
 }
