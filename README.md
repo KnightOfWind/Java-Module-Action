@@ -1,2 +1,11 @@
-# Java-Module-Action
-Java模块化实践
+# Java模块化实践
+## 背景
+Jigsaw Module是随着JDK9发布的，同时也是JDK9的一项重要特性。
+
+## 项目描述
+
+## 项目结构
+
+## 使用的技术栈
+
+## 总结
