@@ -12,6 +12,9 @@
 --    limitations under the License.
 --
 
+-- 创建数据库
+create database user_info;
+
 -- 用户表
 create table user
 (

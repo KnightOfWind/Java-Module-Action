@@ -27,7 +27,7 @@ import java.util.HashSet;
 import java.util.Objects;
 
 /**
- * 解决当开启Jigsaw Module后，在单元测试中Spring的类扫描机制无法扫描到/target/classes目录下的类文件，解决在Spring容器中无法注入Bean实例的问题
+ * 解决当开启Jigsaw Module后，在单元测试中Spring的类扫描机制无法扫描到/target/classes目录下的类文件的问题
  *
  * @author wss
  * @date 2022/5/28 6:35 PM
